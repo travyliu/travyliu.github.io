@@ -1792,7 +1792,7 @@ border:none;
 	  margin: 0px 15px 0px 0;
 	  }
 }
-@media(max-width:640px){
+@media(max-width:580px){
     .qr .qrArea{
         position: absolute;
         width: 200px;
@@ -2107,6 +2107,7 @@ border:none;
 	}
 	.textbox h4 {
 	  font-size: 16px;
+	  margin-top: 32px;
 	  }
 	.button a {
 	  font-size: 13px;

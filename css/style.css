@@ -279,7 +279,8 @@ background: url(../images/icons.png) no-repeat 0px -71px;
 /*--//about--*/
 /*--my skill--*/
 .my-skills{
-	background: url(../images/beijing.jpg) no-repeat 0px 0px; 
+	background: url(../images/beijing.jpg) no-repeat 0px 0px;
+	background-size: cover; 
 	padding: 60px 0;
 }
 .my-skills h3{

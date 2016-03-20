@@ -1,6 +1,6 @@
 $(function(){
     $('.indexQR').click(function(){
-        showQR('index');
+        showQR('erweima');
     });
     $('.newsQR').click(function(){
         showQR('news');
@@ -38,7 +38,7 @@ $(function(){
   $('#activator').click(function(){$('#box').animate({'top':'0px'},900);});
   $('#boxclose').click(function(){
     $('#box').animate({'top':'-1000px'},900);
-    $(".toggle_container").hide();
+    /*$(".toggle_container").hide();*/
   });
   $(".trigger").click(function(){
     $(this).toggleClass("active").next().slideToggle("slow");
@@ -52,10 +52,10 @@ $(function(){
     speed: 500,
     namespace: "callbacks",
     before: function () {
-      $('.events').append("<li>before event fired.</li>");
+     /* $('.events').append("<li>before event fired.</li>");*/
     },
     after: function () {
-      $('.events').append("<li>after event fired.</li>");
+      /*$('.events').append("<li>after event fired.</li>");*/
     }
   });
 
